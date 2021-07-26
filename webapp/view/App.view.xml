@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"  controllerName="anubhav.app.controller.App">
+   <Text text="i am the root view"></Text>
+   <App id="idSpidy">
+    
+   </App>
+</mvc:View>

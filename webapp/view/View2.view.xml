@@ -1,0 +1,5 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="anubhav.app.controller.controller.View2">
+<Page title="This is my Second View" showNavButton="true" navButtonPress="onBack">
+<Button text="take me back to view1" press="onBack"></Button>
+</Page>
+</mvc:View>

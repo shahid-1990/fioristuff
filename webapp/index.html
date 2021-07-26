@@ -1,0 +1,40 @@
+<head>
+<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+
+data-sap-ui-libs="sap.m"
+data-sap-ui-theme="sap_bluecrystal"
+data-sap-ui-bindingSyntax="complex"
+data-sap-ui-resourceroots='
+
+{ "anubhav.app": "./" }
+
+
+'>
+
+</script>
+
+
+<script>
+
+var oCompContainer = new sap.ui.core.ComponentContainer({
+name: "anubhav.app"
+})
+
+//var oView = new sap.ui.view({
+//viewName:"htc.bw.ap.view.Main",
+//type:"XML"
+//});
+
+oCompContainer.placeAt("myarea"); 
+
+</script>
+
+
+</head>
+<body class="sapUiBody">
+    <div id="myarea"></div>
+    </body>
+
+
+
+</html>

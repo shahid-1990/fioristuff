@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="anubhav.app.controller.controller.View1">
+<Page title="My First Page" >
+<headerContent>
+<Button icon="sap-icon://action" tooltip="Share" press="oNext"/>
+</headerContent>
+<Button text="Go to Next"  press="oNext"></Button>
+</Page>
+</mvc:View>
